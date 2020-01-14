@@ -6,7 +6,7 @@ services:
   - docker
 
 env:
-  - LOCAL_NAME=docker-44dn-fastq-formatqc REMOTE_NAME=4dndcic/4dn-fastq-formatqc
+  - LOCAL_NAME=docker-4dn-fastq-formatqc REMOTE_NAME=4dndcic/4dn-fastq-formatqc
 
 install:
   - docker build -t $LOCAL_NAME .
