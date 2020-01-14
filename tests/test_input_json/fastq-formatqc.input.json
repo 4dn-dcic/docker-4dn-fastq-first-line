@@ -1,0 +1,6 @@
+{
+    "fastq": {
+        "class": "File",
+        "path": "../test_files/test.fastq.gz"
+    }
+}
