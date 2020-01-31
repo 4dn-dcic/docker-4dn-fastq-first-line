@@ -6,7 +6,7 @@ services:
   - docker
 
 env:
-  - LOCAL_NAME=docker-4dn-fastq-formatqc REMOTE_NAME=4dndcic/4dn-fastq-formatqc
+  - LOCAL_NAME=docker-4dn-fastq-first-line REMOTE_NAME=4dndcic/4dn-fastq-first-line
 
 install:
   - docker build -t $LOCAL_NAME .
@@ -22,7 +22,7 @@ before_script:
   - chmod +x tests/tests_cwl.sh
 
 script:
-  - tests/tests_cwl.sh fastq-formatqc
+  - tests/tests_cwl.sh fastq-first-line
 
 after_success:
   - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";

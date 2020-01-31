@@ -1,1 +1,1 @@
-# docker-4dn-fastq-formatQC
+# docker-4dn-fastq-first-line
