@@ -23,7 +23,7 @@ inputs:
    default: "."
 
 outputs:
-  match_count:
+  first_line:
    type: File
    outputBinding:
     glob: "$(inputs.outdir + '/' + '*first_line.txt')"

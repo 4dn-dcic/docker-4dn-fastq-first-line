@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 FASTQ=$1
 OUTDIR=$2
 
