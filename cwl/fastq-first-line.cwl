@@ -6,7 +6,7 @@ cwlVersion: v1.0
 
 requirements:
 - class: DockerRequirement
-  dockerPull: "4dndcic/4dn-fastq-formatqc:v1"
+  dockerPull: "4dndcic/4dn-fastq-first-line:v2"
 
 - class: "InlineJavascriptRequirement"
 
@@ -28,4 +28,4 @@ outputs:
    outputBinding:
     glob: "$(inputs.outdir + '/' + '*first_line.txt')"
 
-baseCommand: ["run-fastq-formatqc.sh"]
+baseCommand: ["run-fastq-first-line.sh"]
