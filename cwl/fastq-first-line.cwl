@@ -6,7 +6,7 @@ cwlVersion: v1.0
 
 requirements:
 - class: DockerRequirement
-  dockerPull: "public.ecr.aws/dcic-4dn/4dn-fastq-first-line:v3"
+  dockerPull: "public.ecr.aws/dcic-4dn/4dn-fastq-first-line:v2"
 
 - class: "InlineJavascriptRequirement"
 
